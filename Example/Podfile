@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OHKakaoLocalSDK_Example' do
+  pod 'OHKakaoLocalSDK', :path => '../'
+
+  target 'OHKakaoLocalSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -46,8 +46,8 @@ public func requestTransCoord(inputCoord: KLGeoCoord,
         }
         
         let outputCoord = KLGeoCoord(type: outputCoordType,
-                                     x: Double(response.documents[0].x) ?? 0.0,
-                                     y: Double(response.documents[0].y) ?? 0.0)
+                                     x: response.documents[0].x,
+                                     y: response.documents[0].y)
         
         completionHandler(KLGeoTransCoordResult(inputCoord: inputCoord,
                                                 kakaoAuthKey: kakaoAuthKey,

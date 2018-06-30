@@ -43,7 +43,7 @@ https://developers.kakao.com/docs/restapi/local
 
   s.source_files = 'OHKakaoLocalSDK/Sources/**/*'
   
-  s.resources = 'AKService/Assets/*.plist'
+  s.resources = 'OHKakaoLocalSDK/Assets/*.plist'
   
   # s.resource_bundles = {
   #   'OHKakaoLocalSDK' => ['OHKakaoLocalSDK/Assets/*.png']

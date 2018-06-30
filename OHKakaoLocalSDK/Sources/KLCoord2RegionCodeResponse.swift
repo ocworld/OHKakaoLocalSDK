@@ -26,6 +26,6 @@ public struct KLCoord2RegionCodeResponseMetaDocument : Codable {
     public var region_3depth_name: String
     public var region_4depth_name: String
     public var code: String
-    public var x: String
-    public var y: String
+    public var x: Double
+    public var y: Double
 }

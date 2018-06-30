@@ -18,8 +18,8 @@ public struct KLGeoTranscoordResponseMeta : Codable {
 }
 
 public struct KLGeoTranscoordResponseDocuments : Codable {
-    public var x: String
-    public var y: String
+    public var x: Double
+    public var y: Double
 }
 
 /*

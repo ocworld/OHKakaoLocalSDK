@@ -15,7 +15,7 @@ fileprivate func requestSearchAddressUrl(query: String, page: Int, size: Int) ->
     }
     
     let requestUrlString = String(format: urlFormatString,
-                                          arguments:[query, String(page), String(size)])
+                                  arguments:[query.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!, String(page), String(size)])
     
     let url = URL(string: requestUrlString)
     return url

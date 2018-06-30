@@ -11,7 +11,7 @@
 		<key>KLSearchAddressUrl</key>
 		<string>https://dapi.kakao.com/v2/local/search/address.json?query=%@&amp;page=%@&amp;size=%@</string>
 		<key>KLGeoTranscoordUrl</key>
-		<string>https://dapi.kakao.com/v2/local/geo/transcoord.json?x=%@&amp;y=%@&amp;input_coord=%@&amp;output_coord=%@”</string>
+		<string>https://dapi.kakao.com/v2/local/geo/transcoord.json?x=%@&amp;y=%@&amp;input_coord=%@&amp;output_coord=%@</string>
 	</dict>
 </dict>
 </plist>

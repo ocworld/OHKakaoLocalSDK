@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OHKakaoLocalSDK'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'iOS Swift SDK for Kakao Rest API - Local'
 
 # This description is used to generate tags and improve search results.

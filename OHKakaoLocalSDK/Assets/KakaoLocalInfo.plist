@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KakaoUrls</key>
+	<dict>
+		<key>KLCoord2AddressUrl</key>
+		<string>https://dapi.kakao.com/v2/local/geo/coord2address.json?x=%@&amp;y=%@&amp;input_coord=%@</string>
+		<key>KLCoord2RegionCodeUrl</key>
+		<string>https://dapi.kakao.com/v2/local/geo/coord2regioncode.json?x=%@&amp;y=%@&amp;input_coord=%@&amp;output_coord=%@&amp;lang=%@</string>
+		<key>KLSearchAddressUrl</key>
+		<string>https://dapi.kakao.com/v2/local/search/address.json?query=%@&amp;page=%@&amp;size=%@</string>
+		<key>KLGeoTranscoordUrl</key>
+		<string>https://dapi.kakao.com/v2/local/geo/transcoord.json?x=%@&amp;y=%@&amp;input_coord=%@&amp;output_coord=%@”</string>
+	</dict>
+</dict>
+</plist>

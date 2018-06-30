@@ -1,5 +1,4 @@
 import XCTest
-import OHKakaoLocalSDK
 
 class Tests: XCTestCase {
     

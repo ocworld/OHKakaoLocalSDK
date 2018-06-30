@@ -41,7 +41,7 @@ public struct KLCoord2AddressResponseDocumentAddress : Codable {
     public var region_1depth_name: String
     public var region_2depth_name: String
     public var region_3depth_name: String
-    public var mountaion_yn: String
+    public var mountain_yn: String
     public var main_address_no: String
     public var sub_address_no: String
     public var zip_code: String

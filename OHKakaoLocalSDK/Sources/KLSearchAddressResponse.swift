@@ -27,7 +27,7 @@ public struct KLSearchAddressResponseDocument : Codable {
     public var x: String
     public var address_type: String
     public var address: KLSearchAddressResponseDocumentAddress
-    public var road_address: KLSearchAddressResponseDocumentRoadAddress
+    public var road_address: KLSearchAddressResponseDocumentRoadAddress?
 }
 
 public struct KLSearchAddressResponseDocumentAddress : Codable {

@@ -23,8 +23,8 @@ public struct KLSearchAddressResponseMeta : Codable {
 
 public struct KLSearchAddressResponseDocument : Codable {
     public var address_name: String
-    public var y: Double
-    public var x: Double
+    public var y: String
+    public var x: String
     public var address_type: String
     public var address: KLSearchAddressResponseDocumentAddress
     public var road_address: KLSearchAddressResponseDocumentRoadAddress

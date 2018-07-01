@@ -11,7 +11,7 @@ import CoreLocation
 
 fileprivate func requestCoord2AddressUrl(inputGeoCoord: KLGeoCoord) -> URL? {
     
-    guard let urlFormatString = urlFormatString(keyName: "KLCoord2AddressUrl") else {
+    guard let urlFormatString = KLInfo.default.KLCoord2AddressUrl else {
         return nil
     }
     

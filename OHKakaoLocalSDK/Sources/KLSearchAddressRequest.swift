@@ -10,7 +10,7 @@ import Alamofire
 
 fileprivate func requestSearchAddressUrl(query: String, page: Int, size: Int) -> URL? {
     
-    guard let urlFormatString = urlFormatString(keyName: "KLSearchAddressUrl") else {
+    guard let urlFormatString = KLInfo.default.KLSearchAddressUrl else {
         return nil
     }
     

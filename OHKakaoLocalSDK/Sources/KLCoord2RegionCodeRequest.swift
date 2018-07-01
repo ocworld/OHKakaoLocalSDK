@@ -13,7 +13,7 @@ fileprivate func requestCoord2RegionCodeUrl(inputGeoCoord: KLGeoCoord,
                                             outputGeoCoordType: KLGeoCoordType,
                                             lang: KLCoord2RegionCodeLangType) -> URL? {
     
-    guard let urlFormatString = urlFormatString(keyName: "KLCoord2RegionCodeUrl") else {
+    guard let urlFormatString = KLInfo.default.KLCoord2RegionCodeUrl else {
         return nil
     }
     

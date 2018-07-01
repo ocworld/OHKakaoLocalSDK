@@ -10,18 +10,37 @@ import CoreLocation
 
 public struct KLGeoTranscoordResponse : Codable {
     public var meta: KLGeoTranscoordResponseMeta
-    public var documents: [KLGeoTranscoordResponseDocuments]
+    public var documents: [KLGeoTranscoordResponseDocument]
 }
 
 public struct KLGeoTranscoordResponseMeta : Codable {
     public var total_count: Int
 }
 
-public struct KLGeoTranscoordResponseDocuments : Codable {
+public struct KLGeoTranscoordResponseDocument : Codable {
     public var x: Double
     public var y: Double
 }
 
+extension KLGeoTranscoordResponseDocument {
+    
+    public var xString: String {
+        return String(x)
+    }
+    
+    public var yString: String {
+        return String(y)
+    }
+    
+    public var xDouble: Double {
+        return x
+    }
+    
+    public var yDouble: Double {
+        return y
+    }
+    
+}
 /*
 {
     "meta": {

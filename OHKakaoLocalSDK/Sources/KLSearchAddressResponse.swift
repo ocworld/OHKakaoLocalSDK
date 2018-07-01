@@ -46,6 +46,26 @@ public struct KLSearchAddressResponseDocumentAddress : Codable {
     public var y: String
 }
 
+extension KLSearchAddressResponseDocumentAddress {
+    
+    public var xString: String {
+        return x
+    }
+    
+    public var yString: String {
+        return y
+    }
+    
+    public var xDouble: Double {
+        return Double(x) ?? 0.0
+    }
+    
+    public var yDouble: Double {
+        return Double(y) ?? 0.0
+    }
+    
+}
+
 public struct KLSearchAddressResponseDocumentRoadAddress : Codable {
     public var address_name: String
     public var region_1depth_name: String
@@ -59,4 +79,24 @@ public struct KLSearchAddressResponseDocumentRoadAddress : Codable {
     public var zone_no: String
     public var x: String
     public var y: String
+}
+
+extension KLSearchAddressResponseDocumentRoadAddress {
+    
+    public var xString: String {
+        return x
+    }
+    
+    public var yString: String {
+        return y
+    }
+    
+    public var xDouble: Double {
+        return Double(x) ?? 0.0
+    }
+    
+    public var yDouble: Double {
+        return Double(y) ?? 0.0
+    }
+    
 }

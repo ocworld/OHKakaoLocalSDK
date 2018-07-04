@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OHKakaoLocalSDK'
-  s.version          = '0.1.10'
+  s.version          = '0.1.11'
   s.summary          = 'iOS Swift SDK for Kakao Rest API - Local'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ https://developers.kakao.com/docs/restapi/local
   s.source           = { :git => 'https://github.com/ocworld/OHKakaoLocalSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '8.0'
   s.swift_version = '4.1'
 
   s.source_files = 'OHKakaoLocalSDK/Sources/**/*'
